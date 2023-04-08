@@ -35,7 +35,7 @@ Therefore, I will use the following algorithms:
   - 5 columns (datatypes: 1 integers, 4 objects) 
   - 1056 rows 
   - Hardly any duplicates/NaN-Values 
-- CSV-filve: `user-item-interactions.csv´ 
+- CSV-filve: `user-item-interactions.csv`
   - File with all user-article interactions 
   - 3 columns (datatypes: 1 float, 2 objects) 
   - 45993 rows 
@@ -44,13 +44,13 @@ Therefore, I will use the following algorithms:
 
 In the file `user-item-interactions.csv`, there are the following findings: 
 
-- 80% of articles were viewed 80 times 
+- 80% of articles were viewed 80 times:
 <img width="1012" alt="Bildschirmfoto 2023-04-08 um 12 07 57" src="https://user-images.githubusercontent.com/119667336/230715632-4fbee6e2-dbd8-4ffb-be9d-8972420842fe.png">
 
 - Most users interacted with 1 to 20 articles: 
 <img width="1011" alt="Bildschirmfoto 2023-04-08 um 12 07 34" src="https://user-images.githubusercontent.com/119667336/230715623-1b2f0d98-5979-4bb8-b503-59387701606b.png">
 
-- most users viewed 1 to 7 different articles (not including multi viewing 
+- most users viewed 1 to 7 different articles (not including multi viewing):
 <img width="1021" alt="Bildschirmfoto 2023-04-08 um 11 58 36" src="https://user-images.githubusercontent.com/119667336/230715269-0379bf6f-93f9-420d-bbe6-5952b5d2a8fd.png">
 
 
