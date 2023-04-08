@@ -1,5 +1,5 @@
 # Recommendation Engine For Blog Articles
-sam-pak-nwlFMVePZhI-unsplash.jpg![grafik](https://user-images.githubusercontent.com/119667336/230715886-602e351a-7899-4847-ae8c-b45e1e462714.png)
+![sam-pak-nwlFMVePZhI-unsplash](https://user-images.githubusercontent.com/119667336/230715935-03d94081-b069-44db-86fe-d5439d657bca.jpg)
 # Project Motivation 
 
 In this project, I will create a recommendation engine for users of the IBM Watson Studio blog article platform. This engine will provide new articles for the user, no matter if the user is new or have already interacted with the platform. 
