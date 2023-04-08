@@ -14,7 +14,7 @@ Therefore, I will use the following algorithms:
 
 # File Descriptions 
 
-- Jupyter Notebook: `Recommendation Engine for IBM Watson Studio Blog Articles`
+- Jupyter Notebook: `Recommendation Engine for IBM Watson Studio Blog Articles.ipynb`
 
   - This Jupyter Notebook includes the following content: 
     1. Exploratory Data Analysis 
@@ -29,59 +29,52 @@ Therefore, I will use the following algorithms:
     - `import statistics`
     - `from collections import Counter` 
 
-- CSV-filve: `articles_community.csv
+- CSV-filve: `articles_community.csv`
 
   - File with all blog articles from the platform 
   - 5 columns (datatypes: 1 integers, 4 objects) 
   - 1056 rows 
   - Hardly any duplicates/NaN-Values 
-- CSV-filve: ‘user-item-interactions.csv’ 
+- CSV-filve: `user-item-interactions.csv´ 
   - File with all user-article interactions 
   - 3 columns (datatypes: 1 float, 2 objects) 
   - 45993 rows 
 
 # Exploratory Data Analysis 
 
-In the file ‘user-item-interactions.csv, there are the following findings: 
+In the file `user-item-interactions.csv`, there are the following findings: 
 
-    80% of articles were viewed 80 times 
+- 80% of articles were viewed 80 times 
+<img width="1012" alt="Bildschirmfoto 2023-04-08 um 12 07 57" src="https://user-images.githubusercontent.com/119667336/230715632-4fbee6e2-dbd8-4ffb-be9d-8972420842fe.png">
 
- 
+- Most users interacted with 1 to 20 articles: 
+<img width="1011" alt="Bildschirmfoto 2023-04-08 um 12 07 34" src="https://user-images.githubusercontent.com/119667336/230715623-1b2f0d98-5979-4bb8-b503-59387701606b.png">
 
-    Most users interacted with 1 to 20 articles: 
-
- 
-
-    most users viewed 1 to 7 different articles (not including multi viewing 
-
- 
+- most users viewed 1 to 7 different articles (not including multi viewing 
 <img width="1021" alt="Bildschirmfoto 2023-04-08 um 11 58 36" src="https://user-images.githubusercontent.com/119667336/230715269-0379bf6f-93f9-420d-bbe6-5952b5d2a8fd.png">
 
- 
 
 # Ranked-Based Recommendation 
 
 The algorithm uses a ranking to find the most seen articles and sorted them from most to less. 
 
- 
 
 # User-Based Recommendation 
 
 The algorithm search for user with similar behavior. To find similar behavior, I look at the articles a user has viewed and compare them to all users to find the user with the most matches. The items that the first user didn't see, but the similar user did, will be recommended. 
 
- 
 
 # Matrix Factorization Recommendation 
 
 he next recommendation algorithm will be based on the Matrix Factorization. Therefore, I use the famous FUNK-SVD algorithm. 
 
-The FUNK-SVD based on the splitting of a matrix in 3 matrices with latent factors. The problem with the normal SVD is that it can´t work with nan values, so objects which a user didn´t see jet. So, solve this problem, the FUNK-SVD use just the existing rating of a user and updated the nan and all other values of the latent factors with it. This will be done so long until a minimum error is reached. 
+The FUNK-SVD based on the splitting of a matrix in three matrices with latent factors. The problem with the normal SVD is that it can´t work with nan values, so objects which a user didn´t see jet. So, solve this problem, the FUNK-SVD use just the existing rating of a user and updated the nan and all other values of the latent factors with it. This will be done so long until a minimum error is reached. 
 
 The smallest MSE in at the number of 3 latent factors. 
 
  <img width="1057" alt="Bildschirmfoto 2023-04-08 um 11 58 11" src="https://user-images.githubusercontent.com/119667336/230715249-9bc53f41-cce8-4ae1-9925-179573ffbb6b.png">
 
-The define the cut point is at ± 0.000356 (the MSE at the lowest point). 
+The define the cut point is at `± 0.000356` (the MSE at the lowest point). 
 
 # Summery 
 
@@ -91,4 +84,4 @@ An improvement for my final model can be to restart the searching in the User-Ba
 
 # Acknowledgements 
 
-The dataset for this analyzation was thankfully provided from IBM Watson Studio: https://www.ibm.com/blogs/watson/  
+The dataset for this analyzation was thankfully provided from IBM Watson Studio: `https://www.ibm.com/blogs/watson/` 
