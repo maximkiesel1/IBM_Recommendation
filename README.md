@@ -29,13 +29,13 @@ Therefore, I will use the following algorithms:
     - `import statistics`
     - `from collections import Counter` 
 
-- CSV-filve: `articles_community.csv`
+- CSV-file: `articles_community.csv`
 
   - File with all blog articles from the platform 
   - 5 columns (datatypes: 1 integers, 4 objects) 
   - 1056 rows 
   - Hardly any duplicates/NaN-Values 
-- CSV-filve: `user-item-interactions.csv`
+- CSV-file: `user-item-interactions.csv`
   - File with all user-article interactions 
   - 3 columns (datatypes: 1 float, 2 objects) 
   - 45993 rows 
