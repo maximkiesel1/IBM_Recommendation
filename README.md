@@ -1,4 +1,4 @@
-# IBM_Recommendation
+# Recommendation Engine For Blog Articles
 
 # Project Motivation 
 
@@ -14,7 +14,7 @@ Therefore, I will use the following algorithms:
 
 # File Descriptions 
 
-- Jupyter Notebook: 'Recommendation Engine for IBM Watson Studio Blog Articles' 
+- Jupyter Notebook: `Recommendation Engine for IBM Watson Studio Blog Articles`
 
   - This Jupyter Notebook includes the following content: 
     1. Exploratory Data Analysis 
@@ -23,13 +23,13 @@ Therefore, I will use the following algorithms:
     4. Matrix Factorization Recommendation 
     5. Final Model 
   - Used Libraries:  
-    - 'import numpy as np'
-    - 'import pandas as pd'
-    - 'import matplotlib.pyplot as plt'
-    - 'import statistics'
-    - 'from collections import Counter' 
+    - `import numpy as np`
+    - `import pandas as pd`
+    - `import matplotlib.pyplot as plt`
+    - `import statistics`
+    - `from collections import Counter` 
 
-- CSV-filve: 'articles_community.csv’ 
+- CSV-filve: `articles_community.csv
 
   - File with all blog articles from the platform 
   - 5 columns (datatypes: 1 integers, 4 objects) 
