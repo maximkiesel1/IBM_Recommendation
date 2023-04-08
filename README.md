@@ -1,5 +1,5 @@
 # Recommendation Engine For Blog Articles
-
+sam-pak-nwlFMVePZhI-unsplash.jpg![grafik](https://user-images.githubusercontent.com/119667336/230715886-602e351a-7899-4847-ae8c-b45e1e462714.png)
 # Project Motivation 
 
 In this project, I will create a recommendation engine for users of the IBM Watson Studio blog article platform. This engine will provide new articles for the user, no matter if the user is new or have already interacted with the platform. 
@@ -50,14 +50,12 @@ In the file `user-item-interactions.csv`, there are the following findings:
 - Most users interacted with 1 to 20 articles: 
 <img width="1011" alt="Bildschirmfoto 2023-04-08 um 12 07 34" src="https://user-images.githubusercontent.com/119667336/230715623-1b2f0d98-5979-4bb8-b503-59387701606b.png">
 
-- most users viewed 1 to 7 different articles (not including multi viewing):
+- Most users viewed 1 to 7 different articles (not including multi viewing):
 <img width="1021" alt="Bildschirmfoto 2023-04-08 um 11 58 36" src="https://user-images.githubusercontent.com/119667336/230715269-0379bf6f-93f9-420d-bbe6-5952b5d2a8fd.png">
 
 
 # Ranked-Based Recommendation 
-
-The algorithm uses a ranking to find the most seen articles and sorted them from most to less. 
-
+The algorithm uses a ranking to find the most viewed items and sorts them from most viewed to least viewed.
 
 # User-Based Recommendation 
 
